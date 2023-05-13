@@ -1,6 +1,6 @@
 # Javascript ES 5/6 Code Snippets
 
-```
+```js
 console.log(x); // output: undefined (x is not declared as variable)
 console.log(typeof x); // output: "undefined" (type of x is "undefined" type)
 console.log(typeof typeof x); // output: "string" ("undefined" is a string)
