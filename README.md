@@ -10,7 +10,7 @@ console.log(x === undefined); // output: true (value of x is undefined)
 var x = 10;
 ```
 
-```
+```js
 var x = 10;
 console.log(x); // Output: 10
 console.log(typeof x); // Output: "number"
@@ -21,7 +21,7 @@ console.log(x == '10'); // Output: true
 console.log(x === '10'); // Output: false (not exact match)
 ```
 
-```
+```js
 var x = '10';
 console.log(x); // Output: "10"
 console.log(typeof x); // Output: "string"
@@ -32,7 +32,7 @@ console.log(x == 10); // Output: true
 console.log(x === 10); // Output: false (not exact match)
 ```
 
-```
+```js
 var x;
 console.log(x); // Output: undefined
 console.log(typeof x); // Output: "undefined"
@@ -45,8 +45,7 @@ console.log(typeof typeof x); // Output: "string"
 console.log((x) ? true : false); // Output: false
 ```
 
-
-```
+```js
 // global scope
 var x; 
 let y;
@@ -63,8 +62,7 @@ function fun1() {
 }
 ```
 
-
-```
+```js
 let x;
 x = 100;
 console.log(x); // Output: 100
@@ -74,7 +72,7 @@ let x = 400;
 console.log(x); // Output: error (SyntaxError: Identifier 'x' has already been declared)
 ```
 
-```
+```js
 let x; 
 x = 100;
 
@@ -87,8 +85,7 @@ if (true) {
 console.log(x); // 100
 ```
 
-
-```
+```js
 let x;
 
 x = 100;
@@ -102,7 +99,7 @@ fun1();
 console.log(x); // 100
 ```
 
-```
+```js
 let x;
 
 x = 100;
@@ -117,7 +114,7 @@ fun1();
 console.log(x); // 100
 ```
 
-```
+```js
 let x; /** global scope */ 
 
 x = 100; 
